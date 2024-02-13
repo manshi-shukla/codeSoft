@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.justify-space{
+    justify-content: space-around;
+}
+
+.justify-bet{
+    justify-content:space-between;
+}
+
+.text-style{
+  list-style-type: none;
+}
+.text-dec{
+    text-decoration: none;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.text-cen{
+    text-align: center;
+}
+
+.item-cen{
+    align-items: center;
+    align-content: center;
+}
+
+.fl-gap{
+    gap: 50px;
+}
+
+.text-black{
+    color: black;
+}
+.text-white{
+    color: white;
+}
+
+
+

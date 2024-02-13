@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,800;1,600&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #231f20;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69e3;
+    --padding-inline-section: 20px
+}
+
+.header-part {
+    height: 100px;
+    background-color: #231f20;
+}
+
+/* .logo-box img{
+   width: 120px;
+   height: 100px;
+} */
+.logo-box p {
+    width: 120px;
+    height: 100px;
+    font-size: 35px;
+    position: relative;
+    top: 32px;
+}
+
+.logo-box p::first-letter {
+    color: red;
+    /* font-size: large; */
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: red;
+    text-shadow: 2px 2px 4px rgb(189, 223, 18, 0.5);
+}
+
+/* main container */
+.main {
+    /* background-color: yellow; */
+    width: 100%;
+    color: white;
+}
+
+.infocontainer {
+    /* background-color: rgba(0, 166, 255, 0.861); */
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-3 span {
+    color: red;
+    font-weight: 500;
+}
+
+.text-3 {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.hello {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    font-size: 50px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin: 23px;
+
+}
+
+.dev-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img {
+    /* width: 78vh; */
+    height: 58vh;
+}
+
+.button {
+    margin-top: 34px;
+
+}
+
+.button button {
+    padding: 10px;
+    border-radius: 22px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.button button:hover {
+    /* background-color: white;
+    color: black; */
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 5px red, 0 0 100px red, 0 0 280px red;
+}
+
+.devpic img {
+    /* height: 100%; */
+    position: absolute;
+}
+
+/* get in tech section */
+.get-box {
+    width: 99%;
+    margin: 10px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    height: 200px;
+    display: none;
+
+
+}
+
+.get-box .tex1 {
+    position: absolute;
+    left: 400px;
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+}
+
+.get-box .tex1 p {
+    padding: 5px;
+
+}
+
+.get-box .tex1 p span {
+    color: red;
+    font-size: 20px;
+
+}
+
+
+/* contact section */
+
+.Contact1 {
+    width: 99%;
+    height: 600px;
+    margin: 7px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.contact-part {
+    /* background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%); */
+    height: 700px;
+    /* padding: 100px; */
+    width: 800px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.contact-part a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+
+
+}
+
+.contact-part p {
+    font-size: 20px;
+    color: brown;
+    margin: 10px;
+}
+
+.contact-part label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-part input {
+    width: 470px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.contact-part input::placeholder {
+    font-size: 12px;
+    color: rgba(255, 0, 0, 0.457);
+}
+
+.contact-part textarea {
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.flex2 {
+    display: flex;
+    margin-left: 65px;
+    /* margin-left: 340px; */
+
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#submit {
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 450px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.553);
+}
+
+#submit:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.553);
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 5px red, 0 0 100px red, 0 0 280px red;
+    /* box-shadow: 0 0 5px yellow, 0 0 25px yellow, 0 0 5px yellow, 0 0 100px yellow, 0 0 280px yellow; */
+    /* box-shadow: 0 0 5px white, 0 0 25px white, 0 0 5px white, 0 0 100px wheat, 0 0 280px yellow; */
+}
+
+/* project section */
+.project_sec {
+    width: 99%;
+    height: 500px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    /* display: none; */
+    margin: 7px;
+}
+
+.project_sec #project {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.title-proj {
+    margin: 15px;
+}
+
+.see-btn {
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.719);
+    color: white;
+    margin: 30px 20px;
+    border-radius: 5px;
+}
+
+.see-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(64, 31, 31, 0.678);
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.box:hover {
+    background-color: red;
+    color: white;
+    scale: 105%;
+    transition-timing-function: ease-out;
+
+}
+
+input {
+    color: white;
+}
+
+#box-1 {
+    display: none; 
+}
+
+#box-2 {
+    display: none;
+}
+
+#box-3 {
+    display: none;
+}
+
+#more-proj {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    left: 1280px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#more-proj:hover{
+    
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 5px red, 0 0 100px red, 0 0 280px red;
+}
+
+/* skill section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-box {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 400px;
+    background: #222;
+}
+
+.skill_sec h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 55px;
+
+}
+
+
+.container-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container-box .progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background: #444 linear-gradient(to right, transparent 50%, var(--clr) 0);
+
+}
+
+.container-box .progress h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.container-box .progress span {
+    font-size: 0.65em;
+    font-weight: 400;
+}
+
+.container-box .progress h4 {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    font-weight: 500;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+
+.container-box .progress::before {
+    content: "";
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.container-box .progress::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
+
+}
+
+.container-box .progress::before {
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+
+}
+
+/* .container-box .progress::before{
+   background:var(--clr);
+   transform: rotate(calc(((var(--ie) 25) * 0.01turn)));
+   
+} */
+
+.container-box .progress .less::before {
+    background: #444;
+    ;
+    transform: rotate(calc(((var(--i) 0) * 0.01turn)));
+
+}
+
+
+
+/* footer-part section */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply; */
+
+}
+
+.footer-part {
+    color: aliceblue;
+
+}
+
+.copyright {
+    color: wheat;
+    padding: 100px;
+    margin-left: 420px;
+}
+
+li a {
+    color: #1d69e3;
+}
+
+.m1 {
+    position: relative;
+    top: 50px;
+}
