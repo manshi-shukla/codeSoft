@@ -30,7 +30,7 @@ function fun1() {
 
 
 function changeWordAutomatically() {
-  var words = ["Developer", "Designer", "Freelancer", "Student of BCA(last year)"]; // Add your list of words here
+  var words = ["Developer", "Designer", "Freelancer", "Student of BCA"]; // Add your list of words here
   var index = 0;
   var interval = setInterval(function() {
     document.getElementById("changeableWord").textContent = words[index];
