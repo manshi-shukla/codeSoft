@@ -66,7 +66,7 @@ function validateForm() {
   var nameInput = document.getElementById("Name");
   var nameError = document.getElementById("nameLabel");
   var nameRegex = /^[a-zA-Z\s]+$/;
-  if (!nameRegex.test(nameInput.value)) {
+  if (!nameRegex.test(nameInput.value.trim())) {
       nameError.textContent = "Name must contain only letters";
       return false;
   }
