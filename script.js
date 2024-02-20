@@ -32,6 +32,8 @@ function fun1() {
 function changeWordAutomatically() {
   var words = ["Developer", "Designer", "Freelancer", "Student of BCA"]; // Add your list of words here
   var index = 0;
+  typeSpeed:100;
+  BackSpeed:60
   var interval = setInterval(function() {
     document.getElementById("changeableWord").textContent = words[index];
     index = (index + 1) % words.length;

@@ -1,6 +1,6 @@
-@media (max-width : 600px) {
+@media (max-width : 1300px) {
     .header-part {
-        height: 500px;
+        width: 90vw;
     }
 
     .logo-box img {
@@ -21,13 +21,31 @@
         gap: none;
     }
 
+
 }
+
+@media (max-width:1000px) {
+    .header-part {
+        width: 90vw;
+    }
+    
+    .devpic img {
+        height: 58vh;
+        opacity: 1;
+         
+    }
+
+}
+
 
 @media (max-width:600px) {
     .infocontainer {
         flex-direction: column;
         /* align-items: center; */
         text-align: center;
+    }
+    .header-part {
+        width: 90vw;
     }
 
     .about {
@@ -43,7 +61,8 @@
         position: absolute;
         text-align: center;
     }
-    .devpic{
+
+    .devpic {
         height: 100%;
     }
 

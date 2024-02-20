@@ -153,18 +153,12 @@ ul li a:hover {
 }
 
 .devpic img {
-    /* width: 78vh; */
     height: 58vh;
     opacity: 1;
-    /* position: relative; */
-    /* animation: moveBox 6s ease-out infinite alternate; */  
+     
 }
 .devpic img:hover {
-    /* width: 78vh; */
-    /* height: 58vh; */
-    opacity: 50%;
-    /* position: relative; */
-    /* animation: moveBox 6s ease-out infinite alternate; */  
+    opacity: 50%;  
 }
 
 .button {
